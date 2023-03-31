@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>공부 시간 입력하기</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+   
+</head>
+<body>
+  <h1>시간 측정기</h1>
+  <form id="form">
+    <p>
+      <label for="hours">시간:</label>
+      <input type="number" id="hours" name="hours" min="0" max="23" value="0">
+    </p>
+    <p>
+      &nbsp&nbsp<label for="minutes">분:</label>
+      <input type="number" id="minutes" name="minutes" min="0" max="59" value="0">
+    </p>
+    <p>
+      <label for="name">이름:</label>
+      <input type="text" id="name" name="name">
+    </p>
+
+    <p>*자신의 이름만,시간은 양심적으로 써주세요!*</p>
+    <p>이상한 거 적으면 ip추적해서 죽창들고 족치러 갑니다!</p>
+    <button type="submit">&nbsp&nbsp&nbsp입력&nbsp&nbsp&nbsp</button>
+    <button type="button" onclick="window.location.href='rankings.html'">랭킹 보기</button>
+
+    
+    
+  </form>
+  <script src="index_script.js"></script>
+</body>
+</html>
